@@ -3,5 +3,25 @@
     { "id": 1, "title": "iPhone", "price": 25000 },
     { "id": 2, "title": "Samsung", "price": 20000 },
     { "id": 3, "title": "Pixel", "price": 15000 }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Turkey",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laudantium a numquam excepturi debitis animi quod quae nemo nam, amet unde fugiat maiores impedit sapiente?",
+      "category": "disaster"
+    },
+    {
+      "id": 2,
+      "title": "Syria",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laudantium a numquam excepturi debitis animi quod quae nemo nam, amet unde fugiat maiores impedit sapiente?",
+      "category": "disaster"
+    },
+    {
+      "id": 3,
+      "title": "Palestine",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laudantium a numquam excepturi debitis animi quod quae nemo nam, amet unde fugiat maiores impedit sapiente?",
+      "category": "occupation"
+    }
   ]
 }

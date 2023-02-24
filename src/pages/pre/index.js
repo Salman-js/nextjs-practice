@@ -16,6 +16,9 @@ const PostsIndex = () => {
       <Link href='/pre/products'>
         <h2 className='m-auto font-bold'>Products</h2>
       </Link>
+      <Link href='/pre/news'>
+        <h2 className='m-auto font-bold'>News</h2>
+      </Link>
     </>
   );
 };
