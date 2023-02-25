@@ -1,4 +1,9 @@
 {
+  "dashboard": {
+    "followers": 260,
+    "likes": 1000,
+    "comments": 50
+  },
   "products": [
     { "id": 1, "title": "iPhone", "price": 25000 },
     { "id": 2, "title": "Samsung", "price": 20000 },
@@ -22,6 +27,16 @@
       "title": "Palestine",
       "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laudantium a numquam excepturi debitis animi quod quae nemo nam, amet unde fugiat maiores impedit sapiente?",
       "category": "occupation"
+    }
+  ],
+  "events": [
+    { "id": 1, "name": "The great run", "category": "sport", "price": "free" },
+    { "id": 1, "name": "Rofnan concert", "category": "concert", "price": 2000 },
+    {
+      "id": 1,
+      "name": "Technology convention",
+      "category": "convention",
+      "price": "free"
     }
   ]
 }
