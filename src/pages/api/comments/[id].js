@@ -3,6 +3,7 @@
 import { comments } from '@/data/comments';
 
 export default function handler(req, res) {
+  console.log(req.query);
   if (req.method === 'GET') {
     const comment = comments.find(
       (comment) => comment.id === parseInt(req.query.id)

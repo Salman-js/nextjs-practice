@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useState } from 'react';
 
 function CommentsList() {
@@ -70,6 +71,11 @@ function CommentsList() {
             >
               Set
             </button>
+            <Link href={`/comments/${comment.id}`}>
+              <button className='m-4 px-3 py-1 rounded-lg border bg-blue-300 text-white'>
+                View
+              </button>
+            </Link>
           </h2>
         );
       })}

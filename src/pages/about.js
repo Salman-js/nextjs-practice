@@ -5,3 +5,6 @@ const About = () => {
 };
 
 export default About;
+About.getLayout = function PageLayout(page) {
+  return <>{page}</>;
+};
